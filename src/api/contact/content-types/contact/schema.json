@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "requestsWork": {
+      "type": "boolean"
+    },
+    "responseEmail": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "created": {
+      "type": "datetime"
+    }
+  }
+}
