@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "contact"
+    "displayName": "Contact",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,17 +18,21 @@
     "description": {
       "type": "text"
     },
-    "requestsWork": {
-      "type": "boolean"
-    },
-    "responseEmail": {
+    "email": {
       "type": "email"
     },
     "phone": {
       "type": "string"
     },
-    "created": {
-      "type": "datetime"
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "development",
+        "business",
+        "recruit",
+        "question",
+        "etc"
+      ]
     }
   }
 }
