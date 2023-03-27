@@ -40,6 +40,13 @@
     },
     "skills": {
       "type": "json"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": [
+        "ko",
+        "en"
+      ]
     }
   }
 }
