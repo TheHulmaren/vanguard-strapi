@@ -10,10 +10,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@pinecone-database/pinecone": "^0.0.12",
     "@strapi/plugin-i18n": "^4.7.1",
     "@strapi/plugin-users-permissions": "4.7.1",
     "@strapi/provider-upload-aws-s3": "^4.8.2",
     "@strapi/strapi": "4.7.1",
+    "openai": "^3.2.1",
     "pg": "^8.8.0"
   },
   "author": {
