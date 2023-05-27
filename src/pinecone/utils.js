@@ -13,6 +13,7 @@ const upsertEmbedding = async (index, id, embedding) => {
   };
   const upsertResponse = await indexObject.upsert({ upsertRequest:upsertRequest });
 
+  console.log(upsertRequest);
   return upsertResponse;
 };
 
